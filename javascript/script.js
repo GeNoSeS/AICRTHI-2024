@@ -1,25 +1,25 @@
 window.onload = () => {
   const featuredSpeakers = [
     {
-      src: './images/speakers-images/speaker_01.png',
+      src: 'https://vvce.ac.in/wp-content/uploads/elementor/thumbs/Dr.-B-Sadashivegowda-scaled-oqt19ymj3rc2icr6hhqtruhcn2sfpnz9mmm787wu3g.jpg',
       title: 'Dr. B Sadashive Gowda',
       subtitle: 'Pricipal of VidyaVardhaka College Of Engineering',
       desc: 'General Chair',
     },
     {
-      src: './images/speakers-images/speaker_02.png',
+      src: 'https://vvce.ac.in/wp-content/uploads/elementor/thumbs/GBK-scaled-oqsz14i7cooc1m6aijtvc8u9i581qr2aiiuxfjrp7g.jpg',
       title: 'Dr. G B Krishnappa',
       subtitle: 'Dean R & D',
       desc: "General Chair",
     },
     {
-      src: './images/speakers-images/speaker_03.png',
+      src: 'https://vvce.ac.in/wp-content/uploads/2020/01/Dr.-Ravikumar-CS-scaled.jpg',
       title: 'Dr. Ravi Kumar V ',
       subtitle: 'Professor and Head, Department of IS&E',
       desc: 'Organizing Chair',
     },
     {
-      src: './images/speakers-images/speaker_04.png',
+      src: 'https://vvce.ac.in/wp-content/uploads/2020/01/PREMA-N-S-scaled.jpg',
       title: 'Dr. Prema N S',
       subtitle: 'Associate Professor, Department of IS&E',
       desc: 'Organizing Chair',
