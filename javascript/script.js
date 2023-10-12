@@ -19,11 +19,42 @@ window.onload = () => {
       desc: 'Organizing Chair',
     },
     {
-      src: 'https://vvce.ac.in/wp-content/uploads/2020/01/PREMA-N-S-scaled.jpg',
+      src: './images/Prema.jpeg',
       title: 'Dr. Prema N S',
       subtitle: 'Associate Professor, Department of IS&E',
       desc: 'Organizing Chair',
     },
+    {
+      src: 'https://vvce.ac.in/wp-content/uploads/2020/01/PREMA-N-S-scaled.jpg',
+      title: 'Dr. Xiao-Zhi Gao',
+      subtitle: 'Professor School of computing , University of Eastern Finland',
+      desc: 'Speaker',
+    },
+    {
+      src: '',
+      title: 'Dr. Dalibor Dobrilovic',
+      subtitle: 'Professor Department of Computer ScienceUniversity of Novi Sad, Zrenjanin,  Republic of Serbia',
+      desc: 'Speaker',
+    },
+    {
+      src: '',
+      title: 'Dr. Ali Kashif Bashir',
+      subtitle: 'Professor Department of Computing and Mathematics Manchester Metropolitan University Manchester, U.K',
+      desc: 'Speaker',
+    },
+    {
+      src: '',
+      title: 'Dr. George Ghinea',
+      subtitle: 'Professor Dept. of Computer Science, College of Engineering Design and Physical Sciences,Brunel University, London',
+      desc: 'Speaker',
+    },
+    {
+      src: '',
+      title: 'Dr. Annappa B',
+      subtitle: 'Professor,National Institute of Technology, Karnataka.India.',
+      desc: 'Speaker',
+    },
+    
   ];
 
   const generalspeaker = featuredSpeakers.map((speaker) => `
@@ -57,3 +88,4 @@ window.onload = () => {
     speakerDetails.append(speakerElement);
   });
 };
+
