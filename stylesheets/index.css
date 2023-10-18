@@ -99,7 +99,7 @@ headline section
 
 /* featured speakers */
 
-.featured-speakers {
+.featured-speakers .speakers {
   padding: 2em 1em;
 }
 
@@ -180,7 +180,7 @@ headline section
 
   /* featured speakers */
 
-  .featured-speakers {
+  .featured-speakers .speakers {
     background-color: rgba(247, 247, 248);
   }
 
