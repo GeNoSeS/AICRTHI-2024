@@ -120,11 +120,11 @@ headline section
 .speaker-qualification {
   font-style: italic;
   font-weight: 600;
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 .speaker-desc {
-  font-size: 0.7em;
+  font-size: 1em;
 }
 
 .speaker-underline {
@@ -215,3 +215,4 @@ headline section
     width: 70vw;
   }
 }
+
