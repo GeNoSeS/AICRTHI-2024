@@ -2,6 +2,10 @@ ul * {
   list-style-type: none;
 }
 
+section#objectives ul li {
+  list-style-type: disc!important;
+}
+
 /*
 headline section
 */
@@ -215,4 +219,3 @@ headline section
     width: 70vw;
   }
 }
-
