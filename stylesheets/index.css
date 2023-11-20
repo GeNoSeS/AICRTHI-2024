@@ -6,6 +6,22 @@ section#objectives ul li {
   list-style-type: disc!important;
 }
 
+section#details {
+  padding: 0px 0px 120px;
+}
+
+section#details table {
+  font-size: 18px;
+  border: 2px solid #e8e6e6ce;
+  margin-top: 32px;
+}
+
+@media screen and (min-width: 567px) {
+  section#details table {
+    font-size: 2em;
+  }
+}
+
 /*
 headline section
 */
