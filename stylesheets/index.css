@@ -22,6 +22,22 @@ section#details table {
   }
 }
 
+section#register {
+  padding: 80px 0;
+}
+
+section#register p {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 567px) {
+  section#register p {
+    font-size: 3em;
+  }
+}
+
 /*
 headline section
 */
