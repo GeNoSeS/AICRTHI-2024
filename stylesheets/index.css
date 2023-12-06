@@ -38,6 +38,19 @@ section.featured-speakers {
   padding: 80px 0px 0px;
 }
 
+.speakers {
+  padding: 80px 0px;
+
+}
+
+.speakers .speaker-card-details {
+  background: #fff;
+  padding: 24px;
+  border-radius: 10px;
+  height: 100%;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15)!important;
+}
+
 section.Aim-content {
   padding: 80px 0;
 }
