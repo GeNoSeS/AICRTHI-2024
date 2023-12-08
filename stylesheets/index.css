@@ -2,6 +2,93 @@ ul * {
   list-style-type: none;
 }
 
+section#objectives ul li {
+  list-style-type: disc!important;
+}
+
+section#details {
+  padding: 80px 0;
+}
+
+section#details table {
+  font-size: 16px;
+  /* border: 2px solid #e8e6e6ce; */
+  margin-top: 32px;
+}
+
+@media screen and (min-width: 567px) {
+  section#details table {
+    font-size: 18px;
+  }
+}
+
+section#register {
+  padding: 80px 0;
+  background: linear-gradient(to bottom right, #4b6cb7 0%, #182848 100%);
+  color: #fff;
+}
+
+section#register p {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+section.featured-speakers {
+  padding: 80px 0px 0px;
+}
+
+.speakers {
+  padding: 80px 0px;
+
+}
+
+.speakers .speaker-card-details {
+  background: #fff;
+  padding: 24px;
+  border-radius: 10px;
+  height: 100%;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15)!important;
+}
+
+section.Aim-content {
+  padding: 80px 0;
+}
+
+section.Aim-content .aim-card {
+  background: linear-gradient(to bottom right, #4b6cb7 0%, #182848 100%);
+  padding: 32px;
+  color: #fff;
+  border-radius: 15px;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section#objectives {
+  padding: 120px 0px;
+}
+
+section#objectives .paper-card {
+  background: linear-gradient(to bottom right, #fd5c53 0%, #aa0000 100%);
+  padding: 32px;
+  color: #fff;
+  border-radius: 15px;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 567px) {
+  section#register p {
+    font-size: 3em;
+  }
+}
+
 /*
 headline section
 */
@@ -49,7 +136,7 @@ headline section
   align-items: center;
 }
 
-.program-content > h2 {
+.program-content h2 {
   padding: 1.25em 0;
   color: white;
 }
@@ -134,6 +221,12 @@ headline section
   height: 1px;
 }
 
+.program-details-link {
+  margin: 3em 0;
+  color: #d3d3d3;
+  font-size: 1.2em;
+}
+
 @media screen and (min-width: 768px) {
   /*  headline section */
 
@@ -170,12 +263,6 @@ headline section
 
   .join-btn {
     display: none;
-  }
-
-  .program-details-link {
-    margin: 3em 0;
-    color: #d3d3d3;
-    font-size: 1.2em;
   }
 
   /* featured speakers */
@@ -215,4 +302,3 @@ headline section
     width: 70vw;
   }
 }
-
